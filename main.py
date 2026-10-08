@@ -212,7 +212,6 @@ async def handle_answer(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(result)
     await send_question(update, context)
 
-
 def main():
     token = os.getenv("BOT_TOKEN")
 
@@ -233,3 +232,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
