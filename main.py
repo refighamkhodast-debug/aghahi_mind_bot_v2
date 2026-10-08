@@ -1,4 +1,4 @@
-import os
+۱import os
 from telegram import Update, ReplyKeyboardMarkup
 from telegram.ext import (
     Application,
